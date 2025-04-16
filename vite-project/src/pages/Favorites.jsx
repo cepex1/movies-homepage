@@ -9,7 +9,7 @@ function Favorites() { // This component displays the favorite movies
     <div className="favorites">
       <h2>Favorite Movies</h2>
       {favorites.length > 0 ? (
-        <div className="movie-grid">
+        <div className="movies-grid">
           {favorites.map((movie) => (
             <MovieCard key={movie.id} movie={movie} />
           ))}
