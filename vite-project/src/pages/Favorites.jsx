@@ -2,7 +2,7 @@ import "../css/Favorites.css";
 import { useMovieContext } from "../contexts/MovieContext";
 import MovieCard from "../components/MovieCard"; // Asegúrate de que la ruta sea correcta
 
-function Favorites() {
+function Favorites() { // This component displays the favorite movies
   const { favorites } = useMovieContext();
 
   return (
